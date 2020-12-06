@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>form!</title>
+    </head>
+    <body>
+        <form>
+
+            <input type="text" placeholder="Full name" name="name">
+            <input type="submit">
+            <div>
+                <input type="text" placeholder="Username" name="user_name">
+                <input type="password" placeholder="Password" name="Password">
+                <input type="date" placeholder="Date of Birth" name="DOB">
+                <input type="email" placeholder="Email" name="email">
+                <input type="color" placeholder="Favorate Color" name="Favorite_Color">
+                <input type="number" placeholder="age" name="Age">
+            </div>
+            <div>
+                Favorate movie?
+                <input type="checkbox" placeholder="Favorate movie" name="movie" value="Happy Potter">HarryPotter
+                <input type="checkbox" placeholder="Favorate movie" name="movie" value="Home Alone">Home Alone
+                <input type="checkbox" placeholder="Favorate movie" name="movie" Value = "Spiderman">Spider man
+                <input type="checkbox" placeholder="Favorate movie" name="movie" value = "Avengers">Avengers
+
+            </div>
+
+            <div>
+                Favorate place?
+                <input type="radio" name ="place" value="home">home
+                <input type="radio" name="place" value="School">School
+                <input type="radio" name="place" value="College">College
+            </div>
+            <div>
+                <input list="Countries" name="Country" placeholder="Country">
+                <datalist id="Countries">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
